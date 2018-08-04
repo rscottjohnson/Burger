@@ -9,6 +9,14 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+// Heroku ClearDB connection
+var connection = mysql.createConnection({
+  host: "us-cdbr-iron-east-01.cleardb.net",
+  user: "b3a1aa1a21b48f",
+  password: "7b2815e4",
+  database: "heroku_0aaaeeffd904f51"
+});
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {
