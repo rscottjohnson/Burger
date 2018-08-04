@@ -1,7 +1,7 @@
 # Burger
 ### A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
-Burger is a burger logger with MySQL, Node, Express, Handlebars, and a homemade ORM.  It allows a user to add a burger by entering it in the form field, and then allows them to choose to either 'devour it' or 'serve it' again.
+Burger allows a user to add a burger by entering it in the form field, and then allows them to choose to either 'devour it' or 'serve it' again by selecting the respective button.  Depending on which of the buttons is pressed, the burger is moved to the corresponding side of the screen.
 
 ## Motivation
 Burger is a full-stack app, which complies with the guidelines of:
