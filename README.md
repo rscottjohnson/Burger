@@ -25,6 +25,13 @@ In order to provide the user with this information, the following are used:
 * npm - express-handlebars
 * npm - mysql
 
+## Getting Started
+1. Start by cloning the repository to a local folder using the terminal command `git clone https://github.com/rscottjohnson/Burger.git`.
+2. Change to the newly cloned directory using the `cd` command.
+3. Run the `npm install` command to install the project's dependencies.
+4. Start the application by running the `node server` command.
+5. In a new browser tab, type `localhost:5000`.
+
 ## Credits
 Friend Finder was created by Scott Johnson.  Photo by Pablo Merchán Montes on Unsplash.
 
